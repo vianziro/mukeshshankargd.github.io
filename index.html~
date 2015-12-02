@@ -77,7 +77,7 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro container">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -188,34 +188,34 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="tile purple">
-        <h3 class="title">Project 1</h3>
-        <p>.................</p>
+        <h3 class="title">1</h3>
+        <p>.<p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="tile red">
-        <h3 class="title">Project 2</h3>
-        <p>.................</p>
+        <h3 class="title"></h3>
+        
       </div>
     </div>
     <div class="col-sm-4">
       <div class="tile orange">
-        <h3 class="title">Project 3</h3>
-        <p>.................</p>
+        <h3 class="title"></h3>
+        
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-4">
       <div class="tile green">
-        <h3 class="title">Project 4</h3>
-        <p>.................</p>
+        <h3 class="title"></h3>
+        
       </div>
     </div>
     <div class="col-sm-4">
       <div class="tile blue">
-        <h3 class="title">Project 5</h3>
-        <p>.................</p>
+        <h3 class="title"></h3>
+        
       </div>
     </div>    
   </div>
@@ -235,7 +235,7 @@
 
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+    <section id="download" class="container content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
