@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -258,7 +258,7 @@
 		<a href=+919962603545>+919962603545</a></p>
                 <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline"><!--list-inline banner-social-buttons-->
                     <li>
-                        <a href="https://twitter.com/mukeshshankargd" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/mukeshshankargd" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span	></a>
                     </li>
                     <li>
                         <a href="https://github.com/mukeshshankargd" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
