@@ -261,6 +261,19 @@ a:focus {
     padding-top: 100px;
 }
 
+.skills-section {
+    padding-top:100px;
+    background-color: #333333;
+    width: 100%;
+    
+    
+}
+.projects-section {
+    padding-top: 100px;
+    
+}
+
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -281,11 +294,19 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding: 250px;
     }
-
+    
+    .skills-section {
+        padding: 100px;
+    }
+ 	
+    .projects-section {
+        padding: 100px;
+    }
+	 	
     .download-section {
-        padding: 100px 0;
+        padding: 100px;
     }
 
     #map {
@@ -317,6 +338,171 @@ a:focus {
     color: #000;
     background-color: #42dca3;
 }
+
+
+
+
+/*		*/
+/* Moving Tiles */	
+/*		*/
+
+
+strong {
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tile {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.tile .title {
+  margin-top: 0px;
+}
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green {
+  color: #fff;
+}
+.tile.purple {
+  background: #5133AB;
+}
+.tile.purple:hover {
+  background: #3e2784;
+}
+.tile.red {
+  background: #AC193D;
+}
+.tile.red:hover {
+  background: #7f132d;
+}
+.tile.green {
+  background: #00A600;
+}
+.tile.green:hover {
+  background: #007300;
+}
+.tile.blue {
+  background: #2672EC;
+}
+.tile.blue:hover {
+  background: #125acd;
+}
+.tile.orange {
+  background: #DC572E;
+}
+.tile.orange:hover {
+  background: #b8431f;
+}
+
+
+
+
+
+
+
+
+
+/*Skills Css */
+
+
+body.skillbar {
+  font-family: 'Ubuntu', sans-serif;
+  width:960px;
+}
+
+p.skillbar{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
 
 ul.social-icons {
     margin-top: 0;
@@ -465,3 +651,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+
+

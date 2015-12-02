@@ -24,6 +24,18 @@ $(function() {
     });
 });
 
+//Skills bar
+
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+
+
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
@@ -41,7 +53,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(13.0827, 80.2707), // New York
+        center: new google.maps.LatLng(13.0827,80.2707), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -169,10 +181,12 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(13.0827, 80.2707);
+    var myLatLng = new google.maps.LatLng(13.0827,80.2707);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         icon: image
     });
+
+
 }
