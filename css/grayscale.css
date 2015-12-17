@@ -136,7 +136,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #111;
     }
 }
 
@@ -410,7 +410,7 @@ strong {
 
 /*Skills Css */
 
-
+/*
 body.skillbar {
   font-family: 'Ubuntu', sans-serif;
   width:960px;
@@ -420,7 +420,7 @@ p.skillbar{
   color:#525252;
   font-size:12px;
 }
-
+*/
 .skillbar {
 	position:relative;
 	display:block;
@@ -447,7 +447,7 @@ p.skillbar{
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+	width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -651,6 +651,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
 
 
 

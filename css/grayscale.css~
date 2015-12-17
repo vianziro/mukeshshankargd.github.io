@@ -136,7 +136,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #111;
     }
 }
 
@@ -294,7 +294,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding: 250px;
+        padding-top: 250px;
     }
     
     .skills-section {
@@ -447,7 +447,7 @@ p.skillbar{
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+	width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -651,6 +651,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
 
 
 
