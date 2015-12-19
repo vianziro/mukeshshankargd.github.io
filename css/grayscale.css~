@@ -57,6 +57,11 @@ a:focus {
     color: #1d9b6c;
 }
 
+
+b{
+   color: #aa0000
+}
+
 .light {
     font-weight: 400;
 }
@@ -366,7 +371,7 @@ strong {
 .tile .title {
   margin-top: 0px;
 }
-.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green {
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green, tile.gray {
   color: #fff;
 }
 .tile.purple {
@@ -399,7 +404,12 @@ strong {
 .tile.orange:hover {
   background: #b8431f;
 }
-
+.tile.gray {
+  background: #333333;
+}
+.tile.gray:hover {
+  background: #000000;
+}
 
 
 
@@ -411,6 +421,7 @@ strong {
 /*Skills Css */
 
 
+/*
 body.skillbar {
   font-family: 'Ubuntu', sans-serif;
   width:960px;
@@ -420,7 +431,7 @@ p.skillbar{
   color:#525252;
   font-size:12px;
 }
-
+*/
 .skillbar {
 	position:relative;
 	display:block;
@@ -615,7 +626,22 @@ ul.social-icons {
 .social-icons .fa-weibo{background-color:#D72B2B;}
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
-.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-c
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-c}
+
+
+/* Heart Beat */
+
+.heart {
+	font-size: 50px;
+	color: #f00;
+	animation: beat .50s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
 
 
 

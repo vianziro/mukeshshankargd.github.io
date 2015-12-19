@@ -84,7 +84,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-  <!-- Navigation -->
+<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -142,32 +142,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+
+<!-- About Section -->
+    
+
+<section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About me</h2>
                 <p>I'm doing my senior year at <a href="http://amrita.edu">Amrita School Of Engineering - Coimbatore </a> pursuing B.tech in Computer Science and Engineering</p>
                 <p>Very inquistic about technology and anything that moves in this world <br>Building lots of ♥ for open source<br><a href="https://en.wikipedia.org/wiki/Nihilism">Nihilist</a> by nature</p>
                 <p>I ♥ watching <a href="http://www.imdb.com">movies</a>, spend most of my time day dreaming<br>and planning on making a better peaceful world by doing mind blowing things  </p>
-            </div>
+          <br> <br> <br>
+	   </div>
         </div>
     </section>
 
 
 
 
-
+<!-- SKILLS -->
 
 
 <section id="skills" class="container skills-section text-center" >
-
-
-
-    <h2>Skills</h2>
-
-
-
+<div class="container">
+<h2>Skills</h2>
 <div class="skillbar clearfix " data-percent="55%">
 	<div class="skillbar-title" style="background: #e67e22;"><span>Android</span></div>
 	<div class="skillbar-bar" style="background: #e67e22;"></div>
@@ -221,77 +220,90 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="skillbar-bar" style="background: #904e8c;"></div>
 	<div class="skill-bar-percent">80%</div>
 </div> <!-- End Skill Bar -->
-
-
-
+</div>
 </section>
 
 
 
+<!-- Projects -->
 
 
-<section id="projects" class="container projects-section text-center" backgroundcolor="425846">
-
-
-
-
-
+<section id="projects" class="projects-section text-center" backgroundcolor="425846">
 <div class="container">
   <div class="row">
     <div class="col-md-12">
       <h2>Projects</h2>
     </div>
   </div>
-  <div class="row">
+  
+  <a href=http://github.com/mukeshshankargd/augtratamil> 	
+   <div class="row">
     <div class="col-sm-4">
       <div class="tile purple">
-        <h3 class="title">1</h3>
-        <p>.<p>
+        <h3 class="title">AugTraTamil</h3>
+        <p>Augmented Reality Application for Tamil Language Learning<p>
       </div>
     </div>
-    <div class="col-sm-4">
+    </a>
+   
+  <a href=http://github.com/mukeshshankargd/CaesarCipher>
+   <div class="col-sm-4">
       <div class="tile red">
-        <h3 class="title"></h3>
-        
+        <h3 class="title">Caesar Cipher</h3>
+        <p>A ciphering technique to encode and decode text using a key </p>
       </div>
     </div>
+  </a>
+    
+   <a href=http://github.com/mukeshshankargd/alarmclock>
     <div class="col-sm-4">
       <div class="tile orange">
-        <h3 class="title"></h3>
-        
+        <h3 class="title">Alarm Clock</h3>
+        <p>Powerful Alarm Clock with lots of amazing features</p>
       </div>
     </div>
   </div>
-  <div class="row">
+
+  <a href=http://github.com/mukeshshankargd/ncpproject>
+   <div class="row">
     <div class="col-sm-4">
       <div class="tile green">
-        <h3 class="title"></h3>
+        <h3 class="title">ncpproject</h3>
+	<p>Alpha version of my personal profile webpage</p>
         
       </div>
     </div>
-    <div class="col-sm-4">
+  </a>
+
+  <a href=http://github.com/mukeshshankargd/QAforum>
+   <div class="col-sm-4">
       <div class="tile blue">
-        <h3 class="title"></h3>
+        <h3 class="title">QA Forum</h3>
+	<p>Build the connectivity and other simple database functions</p>
         
       </div>
     </div>    
-  </div>
+  </a> 
+
+  <a href=http://github.com/mukeshshankargd>
+   <div class="col-sm-4">
+      <div class="tile gray">
+        <h3 class="title">...</h3>
+	<p>A lot more cool projects coming in the near future</p>
+        
+      </div>
+    </div>    
+  </a> 
+ </div>
 </div>
-
-
-
 </section>
 
 
 
+<!-- Download Section -->
 
 
-
-
-
-
-    <!-- Download Section -->
-    <section id="download" class="container content-section text-center">
+    <section id="download" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -302,7 +314,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
 
-    <!-- Contact Section -->
+
+
+ <!-- Contact Section -->
+
+
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -320,22 +336,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <a href="https://github.com/mukeshshankargd" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+MukeshShankar/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://plus.google.com/+MukeshShankargd/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Map Section -->
+
+
+<!-- Map Section -->
+
+
     <div id="map"></div>
 
-    <!-- Footer -->
+
+<!-- Footer -->
+
+
     <footer>
 	<br>
-        <div class="container text-center">
-            <p>Copyright &copy; Mukesh Shankar 2015</p>
- 	    <p>Made in <img src="india.png" >  with  <i class='fa fa-heart faa-pulse animated fa-1x'></i> </p>		
+        <div class="text-center">
+            <p>Copyright &copy; 2015 Mukesh Shankar G D</p>
+ 	    <p>Made in <img src="india.png" >  with <i color="f00000"> ♥</i><!--&#x2665;--></p>		
         </div>
     </footer>
 
@@ -355,5 +378,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="js/grayscale.js"></script>
 
 </body>
-
 </html>
